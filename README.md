@@ -22,5 +22,7 @@
 
 ---
 
-## 📁 Folder Structure
+## 🔗 Live Demo
+
+👉 [Click here to try Task Smash](https://razaabbas.pythonanywhere.com/)
 
