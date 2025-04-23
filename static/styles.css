@@ -1,0 +1,71 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(245, 232, 208);  /* light neutral background */
+}
+
+.content {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 2rem;
+  background-color: #ffffff;  /* clean white card */
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.content h1 {
+  color: #2c3e50;      /* dark slate */
+  font-size: 2.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.content h3 {
+  color: #34495e;      /* softer slate */
+  font-size: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+}
+
+.content table th,
+.content table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #ecf0f1;  /* very light border */
+  color: #2c3e50;
+}
+
+.content table th {
+  background-color: #ecf0f1;  /* light gray header */
+  font-weight: 600;
+}
+
+.content table tr:hover {
+  background-color: #f0f4f8;  /* subtle hover */
+}
+
+.content a,
+.content input[type="submit"] {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #5a8dee;  /* calm blue accent */
+  color: #ffffff;
+  text-decoration: none;
+  border: none;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 0.25rem 0;
+}
+
+.content a:hover,
+.content input[type="submit"]:hover {
+  background-color: #4b6c8a;  /* darker on hover */
+}

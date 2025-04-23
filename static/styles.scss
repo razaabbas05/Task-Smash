@@ -1,0 +1,98 @@
+$primar_color: #007bff;
+$secondary_color: #6c757d;
+$success_color: #28a745;
+$primary_hover_color: #0056b3;
+$sucess_hover_color: #218838;
+$title_color: #343a40;
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: wheat
+}
+
+.content {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: $primar_color;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+    h1{
+        color: $title_color;
+        font-size: 2.5em;
+        margin-bottom: 20px;
+    }
+
+    h3{
+        color: $title_color;
+        font-size: 1.5em;
+        margin-bottom: 20px;
+    }
+    table{
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid $secondary_color;
+        }
+
+        th {
+            background-color: $secondary_color;
+            color: white;
+        }
+
+        tr:hover {
+            background-color: $primar_color;
+        }
+    }
+
+    a{
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: $success_color;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+         transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: $sucess_hover_color;
+        }
+
+        input{
+            padding: 10px 20px;
+            background-color: $success_color;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+             transition: background-color 0.3s ease;
+
+            &:hover {
+                background-color: $sucess_hover_color;
+            }
+        }
+
+        #btn_add{
+            background-color: $primar_color;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+             transition: background-color 0.3s ease;
+
+            &:hover {
+                background-color: $primary_hover_color;
+            }
+        }
+    }
+    
+
+
+}
+
